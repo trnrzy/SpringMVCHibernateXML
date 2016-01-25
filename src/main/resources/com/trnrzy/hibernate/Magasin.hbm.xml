@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.trnrzy.spring.model">
+    <class name="Magasin" table="MAGASIN">
+        <id name="idMagasin" column="idMagasin">
+            <generator class="native"/>
+        </id>
+        <property name="name" column="NAME" />
+        <property name="address" column="ADDRESS" />
+        <property name="zip" column="ZIP" />
+        <property name="city" column="CITY" />
+    </class> 
+</hibernate-mapping>
